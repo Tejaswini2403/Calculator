@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javaScript.js"></script>
+    </head>
+    <body>
+        <div id="marq"><marquee>Calculator</marquee></div>
+        <table id="table1" border="1" align="center"> 
+           <tr> 
+              <td colspan="4"><input type="text" id="result"/></td> 
+           </tr> 
+           <tr> 
+            <td><input type="button" class="c1" value="AC" onclick="clr()"/> </td> 
+            <td><input type="button"  class="c1" value="(" onclick="get('(')"/> </td> 
+            <td><input type="button"  class="c1" value=")" onclick="get(')')"/> </td> 
+            <td><input type="button"  class="c1" value="%" onclick="get('%')"/> </td> 
+         </tr> 
+           <tr> 
+              <td><input type="button"  class="c1" value="9" onclick="get('9')"/> </td> 
+              <td><input type="button"  class="c1" value="8" onclick="get('8')"/> </td> 
+              <td><input type="button"  class="c1" value="7" onclick="get('7')"/> </td> 
+              <td><input type="button"  class="c1" value="/" onclick="get('/')"/> </td> 
+           </tr> 
+           <tr> 
+              <td><input type="button"  class="c1" value="4" onclick="get('4')"/> </td> 
+              <td><input type="button"  class="c1" value="5" onclick="get('5')"/> </td> 
+              <td><input type="button"  class="c1" value="6" onclick="get('6')"/> </td> 
+              <td><input type="button"  class="c1" value="-" onclick="get('-')"/> </td> 
+           </tr> 
+           <tr> 
+              <td><input type="button"  class="c1" value="1" onclick="get('1')"/> </td> 
+              <td><input type="button"  class="c1" value="2" onclick="get('2')"/> </td> 
+              <td><input type="button"  class="c1" value="3" onclick="get('3')"/> </td> 
+              <td><input type="button"  class="c1" value="+" onclick="get('+')"/> </td> 
+           </tr> 
+           <tr> 
+              <td><input type="button"  class="c1" value="0" onclick="get('0')"/> </td> 
+              <td><input type="button"  class="c1" value="." onclick="get('.')"/> </td> 
+              <td><input type="button"  class="c1" value="=" onclick="ans()"/> </td> 
+              <td><input type="button"  class="c1" value="*" onclick="get('*')"/> </td> 
+           </tr> 
+        </table> 
+    </body>
+</html>
